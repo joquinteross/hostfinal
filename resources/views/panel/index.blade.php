@@ -9,6 +9,7 @@
 @endpush            
 
 @section('content')
+@vite(['resources/css/app.css', 'resources/js/app.js'])
 <div class="container-fluid px-4">
     <h1 class="mt-4">Infomacion General</h1>
     <div class="row">
