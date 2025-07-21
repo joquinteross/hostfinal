@@ -23,8 +23,6 @@ RUN npm install
 # Ejecutar build de Vite
 RUN npm run build
 
-# Generar la clave de la app
-RUN php artisan key:generate
 
 # Exponer el puerto
 EXPOSE 8000
