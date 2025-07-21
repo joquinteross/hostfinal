@@ -18,7 +18,7 @@ COPY . .
 RUN composer install
 
 # Generar la clave de la app
-RUN php artisan key:generate
+#RUN php artisan key:generate
 
 # Puerto por defecto
 EXPOSE 8000
